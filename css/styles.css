@@ -23,8 +23,19 @@
     height: 60px;
     display: flex;
     align-items: center;
+    position: relative;
+    background: rgba(21, 23, 45, 0.5);
 }
 
 nav ul li {
     display: inline-block;
+    font-size: 20px;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 40px;
 }
