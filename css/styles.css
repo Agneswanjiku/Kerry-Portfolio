@@ -30,6 +30,7 @@
 nav ul li {
     display: inline-block;
     font-size: 20px;
+    margin-left: 80px;
 }
 
 nav ul li a {
@@ -38,4 +39,21 @@ nav ul li a {
     text-transform: uppercase;
     color: #fff;
     margin-right: 40px;
+}
+
+.social {
+    margin: 220px auto;
+    width: 50px;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 40px;
+    height: 100px;
+}
+
+.social a img {
+    width: 30px;
 }
