@@ -147,3 +147,7 @@
             display: inline-block;
             align-items: center;
         }
+        
+        #about {
+            margin-left: 15%;
+        }
