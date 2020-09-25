@@ -47,6 +47,7 @@
                                 text-decoration: none;
                                 text-transform: uppercase;
                                 color: #fff;
+                                /* margin-right: 40px; */
                             }
                             
                             .social {
@@ -137,8 +138,7 @@
                             #contacts {
                                 background: rgba(21, 23, 45, 0.5);
                                 display: flex;
-                                font-size: 15px;
-                                text-align: center;
+                                position: relative;
                             }
                             
                             #contacts ul li {
@@ -157,6 +157,12 @@
                             .about span {
                                 font-size: 36px;
                                 color: black;
+                            }
+                            
+                            .kk {
+                                background-image: url("/images/loyu.jpg");
+                                background-repeat: no-repeat;
+                                background-size: cover;
                             }
                             
                             .about img {
@@ -197,24 +203,12 @@
                                 text-transform: capitalize;
                                 line-height: 50px;
                                 font-size: 23px;
-                            }
-                            
-                            #portfolio,
-                            h1,
-                            p {
-                                text-align: center;
-                                margin-bottom: 30px;
+                                background: rgba(21, 23, 45, 0.5);
+                                color: #fff;
                             }
                             
                             #contacts {
                                 margin-left: 10.2%;
-                                align-items: center;
-                            }
-                            
-                            #contacts ul li {
-                                text-align: center;
-                                margin-bottom: 50%;
-                                font-size: 20px;
                             }
                             
                             .img1 {
@@ -240,8 +234,6 @@
                                 font-size: 36px;
                                 padding-bottom: 60px;
                             }
-                            
-                            .kip p {}
                             
                             .kip {
                                 margin-left: 10.2%;
@@ -295,4 +287,17 @@
                             
                             .project p {
                                 width: 300px;
+                            }
+                            
+                            .eve {
+                                margin-left: 40%;
+                            }
+                            
+                            .project p {
+                                font-size: 16px;
+                            }
+                            
+                            .con1 {
+                                text-transform: uppercase;
+                                font-size: 10px;
                             }
