@@ -235,3 +235,12 @@
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
+                
+                .ht {
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                
+                .ht img {
+                    width: 200px;
+                }
