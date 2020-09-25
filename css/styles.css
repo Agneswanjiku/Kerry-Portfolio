@@ -181,6 +181,17 @@
                     font-size: 23px;
                 }
                 
+                .komar {
+                    background-image: url("/images/print.jpeg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                
+                #skills h1 {
+                    text-align: center;
+                    padding: 20px;
+                }
+                
                 #portfolio {
                     margin-left: 15%;
                     margin-top: 6%;
@@ -238,9 +249,33 @@
                 
                 .ht {
                     display: flex;
-                    justify-content: space-evenly;
+                    justify-content: space-between;
                 }
                 
                 .ht img {
                     width: 200px;
+                }
+                
+                .ko,
+                .mar {
+                    width: 500px;
+                    margin-top: 30px;
+                    background: black;
+                    color: #fff;
+                }
+                
+                .mar img {
+                    width: 500px;
+                }
+                
+                .gong {
+                    background: grey;
+                }
+                
+                .project {
+                    display: flex;
+                }
+                
+                .project img {
+                    width: 300px;
                 }
